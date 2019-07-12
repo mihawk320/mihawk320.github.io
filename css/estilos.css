@@ -72,6 +72,11 @@ color: #F05F40;
 font-weight: bold;
 }
 
+.imagenservicio{
+  width: 8rem;
+  display:flex;
+  margin:0 auto;
+}
 /*Estilos Ultimos proyectos*/
 .ultimos-proyectos{
   background: #424141;
