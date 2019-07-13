@@ -59,8 +59,11 @@ margin-left:16%;
   background: #F05F40;
   color: #fff;
 }
+
 #foto{
-  border-radius: 50%
+  border-radius: 50%;
+  display:flex;
+  margin:0 auto;
 }
 /*Estilos bloque Servicios*/
 
@@ -80,20 +83,10 @@ font-weight: bold;
 /*Estilos Ultimos proyectos*/
 .ultimos-proyectos{
   background: #424141;
-  color: #fff;
-}
-.ultimos-proyectos a{
-display: block;
-overflow: hidden;
-margin-bottom: 1.5rem;
 }
 
-.ultimos-proyectos img{
-transition: all .3s ease;
-min-width: 100%;
-}
-.ultimos-proyectos a:hover img{
-  transform: scale(1.5);
+.ultimos-proyectos h2{
+  color:white;
 }
 /**Estilos bloque Pie de pagina*/
 .footer{
