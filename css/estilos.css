@@ -57,11 +57,9 @@ margin-left:16%;
 /*Estilos bloque Quienes somos*/
 .quienes-somos{
   background: #F05F40;
-}
-
-.quienes-somos h2{
   color:white;
 }
+
 
 #foto{
   border-radius: 50%;
