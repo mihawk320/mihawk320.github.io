@@ -4,7 +4,7 @@ html{
 body {
   background: #f2f2f2; }
   .bienvenidos{
-    background: url(../images/fondoapp2.jpg);
+    background: url(../images/fondoapp.jpg);
     background-size:cover;
     height: 100vh;
 }
@@ -103,7 +103,7 @@ font-weight: bold;
   clear: inherit;
 }
 .bienvenidos{
-  background:url("../images/fondoweb2.jpg");
+  background:url("../images/fondoweb.jpg");
   background-size:cover;
 
 }
