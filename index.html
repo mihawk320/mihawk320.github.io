@@ -23,17 +23,15 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">Sobre mi</a>
+                  <a class="nav-link" href="#sobremi">Sobre mi</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Habilidades</a>
+                  <a class="nav-link" href="#habilidades">Habilidades</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="#">Portafolio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">My cv</a>
-                </li>
+                
               </ul>
 
               <!-- Button trigger modal -->
@@ -43,52 +41,55 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row ">
-         
-          <div class="card" style="width: 100%">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <a href="https://github.com/mihawk320"> 
-                  <img src="images/github.png" style="width:10%;">
-                  Github
-                </a>
-              </li>
-              <li class="list-group-item">
-                <a href="https://www.instagram.com/carlos_hammet/"> 
-                  <img src="images/instagram.png" style="width:10%;">
-                  Instagram
-                </a>
-              </li>
-              <li class="list-group-item">
-                <a href="https://www.facebook.com/andresmoraxd"> 
-                  <img src="images/fb.png" style="width:10%;">
-                  Facebook
-                </a>
-              </li>
-              <li class="list-group-item">
-                <img src="images/inn.png" style="width:10%;">
-                <a href="https://www.linkedin.com/in/carlos-mora-04624018a/">Linkedln</a>
-              </li>
-            </ul>
-          </div>
-
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-body">
+          <div class="row ">
+           
+            <div class="card" style="width: 100%">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="https://github.com/mihawk320"> 
+                    <img src="images/github.png" style="width:10%;">
+                    Github
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://www.instagram.com/carlos_hammet/"> 
+                    <img src="images/instagram.png" style="width:10%;">
+                    Instagram
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://www.facebook.com/andresmoraxd"> 
+                    <img src="images/fb.png" style="width:10%;">
+                    Facebook
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <img src="images/inn.png" style="width:10%;">
+                  <a href="https://www.linkedin.com/in/carlos-mora-04624018a/">Linkedln</a>
+                </li>
+              </ul>
+            </div>
+  
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+
+  
           </div>
           </nav>
           
@@ -106,12 +107,12 @@
     <!--Texto De Cierre-->
   </section>
       
-  <section class="quienes-somos  py-2 text-xs-center">
+  <section class="quienes-somos  py-2 text-xs-center" id="sobremi">
     <div class="container">
   <img src="images/Perfil.jpg" alt="Nosotros" width="181" class="img-fluid my-auto mb-2" id="foto">
   <h2 class="h3 text-center">Sobre mi</h2>
   <p class="text-center">Hola! Mi nombre es Andrés Mora y soy un desarrollador web front-end y con algunos conocimientos
-    en desarrollo web backend. Llevo aproximadamente 2 años y medio como desarrollador  
+    en desarrollo web backend con PHP. Actualmente curso ingeniería en sistemas en la Universidad Nacional 
   </p>
   <div class="row">
     <a href="#" class="btn btn-secondary btn-lg align-midle mx-auto" data-toggle="modal" data-target="#quienes-somos">MAS INFORMACIÓN</a>
@@ -124,12 +125,13 @@
    </section>
 
    <!--Nuestros servicios-->
-   <section class="servicios py-2 text-xs-center">
+   <section class="servicios py-2 text-xs-center" id="habilidades">
 
     <div class="container">
    <h2 class="h3 mb-3 text-center">Habilidades</h2>
    
    <div class="row">
+      
       <div class="col-md-3">
         <img src="images/html.png" class="imagenservicio">
       </div>
@@ -154,6 +156,13 @@
           <img src="images/bootstrap.png" class="imagenservicio">
         </div>
 
+        <div class="col-md-3">
+          <img src="images/react.png" class="imagenservicio">
+        </div>
+        <div class="col-md-3">
+          <img src="images/git.png" class="imagenservicio">
+        </div>
+
    </div>
    
    </div>
@@ -167,10 +176,10 @@
      <div class="row">
           <div class="col-md-6 mb-3">
             <div class="card">
-              <img src="images/trekking.png" class="card-img-top" alt="...">
+              <img src="images/adopta.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Trekking San Cristóbal </h5>
-                <p class="card-text">Página realizada para mostrar contenido acerca de Trekking San Cristóbal, una empresa de turismo y paz.</p>
+                <h5 class="card-title">AdoptaMed </h5>
+                <p class="card-text">Pagina realizada con el fin de fomentar la adopción animal</p>
                 <a href="#" class="btn btn-primary">Ingresar</a>
               </div>
             </div>
@@ -178,11 +187,11 @@
     
           <div class="col-md-6">
             <div class="card">
-              <img src="images/digi.png" class="card-img-top" alt="...">
+              <img src="images/music.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Digimom</h5>
-                <p class="card-text">Página web realizada en gran parte con Php y conectada a una base de datos, es un Crud para llevar inventario de una tienda </p>
-                <a href="#" class="btn btn-primary">Ingresar</a>
+                <h5 class="card-title">Steel-Music</h5>
+                <p class="card-text">Pagina web que presta servicios de música</p>
+                <a href="https://musicageek.herokuapp.com/" class="btn btn-primary">Ingresar</a>
               </div>
             </div>
           </div>
