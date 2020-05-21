@@ -1,213 +1,249 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="icon" href="images/carpeta.png">
-    <title>portafolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+    <!-- Ionic icons-->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+
+    <title>Portafolio - Andres Mora</title>
 </head>
-<body style="background-color: #f2f2f2">
-  <section class="bienvenidos">
-      <header class="encabezado">
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-
-          <nav class="navbar navbar-expand-lg navbar-dark ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <img src="assets/images/logo.png" class="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
             </button>
-            <a class="navbar-brand" href="#">Andrés Mora</a>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#sobremi">Sobre mi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#habilidades">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Portafolio</a>
-                </li>
-                
-              </ul>
 
-              <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
-  Contacto
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="row ">
-           
-            <div class="card" style="width: 100%">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <a href="https://github.com/mihawk320"> 
-                    <img src="images/github.png" style="width:10%;">
-                    Github
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <a href="https://www.instagram.com/carlos_hammet/"> 
-                    <img src="images/instagram.png" style="width:10%;">
-                    Instagram
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <a href="https://www.facebook.com/andresmoraxd"> 
-                    <img src="images/fb.png" style="width:10%;">
-                    Facebook
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <img src="images/inn.png" style="width:10%;">
-                  <a href="https://www.linkedin.com/in/carlos-mora-04624018a/">Linkedln</a>
-                </li>
-              </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre_mi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
-  
-          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    </nav>
 
-
-  
-          </div>
-          </nav>
-          
+    <section id="hero">
+        <duv class="container">
+            <div class="content-center">
+                <h1>Andres Mora - Developer</h1>
+                <p>Desarrollo de software</p>
+                <a href="#" class="btn btn-secondary mt-4">Ver más <img src="assets/images/arrow-right.svg" class="ml-2"></a>
             </div>
-        
-        </div>
-      </header>
-
-    <!--Texto De bienvenida-->
-    <div class="texto-bienvenido">
-      <p class="h5">Andrés Mora Front-End developer</p>
-      <h1 class="display-4 mb-3">Bienvenido</h1>
-      <a href="https://api.whatsapp.com/send?phone=573007657614" class="btn btn-dark btn-lg"> <img src="images/wpp.png" width="30rem;">  Ponte en contacto</a>
-      </div>
-    <!--Texto De Cierre-->
-  </section>
-      
-  <section class="quienes-somos  py-2 text-xs-center" id="sobremi">
-    <div class="container">
-  <img src="images/Perfil.jpg" alt="Nosotros" width="181" class="img-fluid my-auto mb-2" id="foto">
-  <h2 class="h3 text-center">Sobre mi</h2>
-  <p class="text-center">Hola! Mi nombre es Andrés Mora y soy un desarrollador web front-end y con algunos conocimientos
-    en desarrollo web backend con PHP. Actualmente curso ingeniería en sistemas en la Universidad Nacional 
-  </p>
-  <div class="row">
-    <a href="#" class="btn btn-secondary btn-lg align-midle mx-auto" data-toggle="modal" data-target="#quienes-somos">MAS INFORMACIÓN</a>
-</div>
-      
-    
-  
-    </div>
-  
-   </section>
-
-   <!--Nuestros servicios-->
-   <section class="servicios py-2 text-xs-center" id="habilidades">
-
-    <div class="container">
-   <h2 class="h3 mb-3 text-center">Habilidades</h2>
-   
-   <div class="row">
-      
-      <div class="col-md-3">
-        <img src="images/html.png" class="imagenservicio">
-      </div>
-   
-      <div class="col-md-3">
-        <img src="images/css.png" class="imagenservicio">
-      </div>
-   
-      <div class="col-md-3">
-        <img src="images/js.png" class="imagenservicio">
-      </div>
-
-      <div class="col-md-3">
-        <img src="images/php.png" class="imagenservicio">
-      </div>
-
-        <div class="col-md-3">
-          <img src="images/mysql.png" class="imagenservicio">
-        </div>
-  
-        <div class="col-md-3">
-          <img src="images/bootstrap.png" class="imagenservicio">
-        </div>
-
-        <div class="col-md-3">
-          <img src="images/react.png" class="imagenservicio">
-        </div>
-        <div class="col-md-3">
-          <img src="images/git.png" class="imagenservicio">
-        </div>
-
-   </div>
-   
-   </div>
-   
+        </duv>
     </section>
-    <!--fin Nuestros servicios-->
 
-    <section class="ultimos-proyectos py-2 text-xs-center">
-      <div class="container">
-    <h2 class="h3 mb-3">ÚLTIMOS PROYECTOS</h2>
-     <div class="row">
-          <div class="col-md-6 mb-3">
-            <div class="card">
-              <img src="images/adopta.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">AdoptaMed </h5>
-                <p class="card-text">Pagina realizada con el fin de fomentar la adopción animal</p>
-                <a href="#" class="btn btn-primary">Ingresar</a>
-              </div>
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>Mi portafolio</h2>
+                <p>Aquí hay ejemplos de los diferentes proyectos que he desarrollado</p>
             </div>
-          </div>
-    
-          <div class="col-md-6">
-            <div class="card">
-              <img src="images/music.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Steel-Music</h5>
-                <p class="card-text">Pagina web que presta servicios de música</p>
-                <a href="https://musicageek.herokuapp.com/" class="btn btn-primary">Ingresar</a>
-              </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Goepav</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/goepav.png" class="img-fluid" alt="Portfolio 01">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Makaia</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/hackaton.png" class="img-fluid" alt="Portfolio 02">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Punto bueno</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/puntobueno.png" class="img-fluid" alt="Portfolio 03">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Serviteca</h2>
+                            </a>
+                            <a href="#">
+                                <p>— App/Digital Product</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/goepav.png" class="img-fluid" alt="Portfolio 04">
+                    </div>
+                </div>
             </div>
-          </div>
-    
+            <div class="text-center mt-4">
+                <p class="">¿Listo para iniciar tu proyecto?</p>
+                <a href="#" class="text-dark"><b>Te ayudo con eso</b></a>
+            </div>
         </div>
-    
-    
-    
+    </section>
+
+    <section id="sobre_mi" class="bgLightGrey">
+        <div class="container">
+            <div class="content-center">
+                <h2>Acerca de <b>mi</b></h2>
+                <p>Mi nombre es Carlos Andres Mora y empecé en el desarrollo web hace 4 años, soy técnico en desarrollo de software
+                    y actualmente me encuentro cursando Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia.
+                    Soy una persona que le encanta el aprendizaje y siempre tiene el deseo de estar superándose. Hice la técnica 
+                    mientras estuve en el colegio, luego de eso hice parte de varios developer circles y cursos (Entre ellos academia geek) para así ampliar mis 
+                    conocimientos como desarrollador. <b>HTML, CSS, JavaScript, jQuery, React, Mysql, Php y Git.</b> 
+                </p>
+            </div>
+            <img src="assets/images/yo.jpg" alt="yo" class="img-fluid my-auto" id="foto">
+
+    </section>
+
+    <section id="habilidades" class="divider">
+        <div class="container">
+            <div class="content-center">
+                <h2><b>Habilidades</b></h2>
+                <p>Tengo habilidad en <b>HTML, CSS, JavaScript, jQuery, React, Mysql, Php y Git.</b> </p>
+            </div>
+                    <div class="row">
+                        <div class="col-md-6 display">
+                            <img src="assets/images/html.png">
+                            <img src="assets/images/css.png">
+                            <img src="assets/images/js.png">
+                        </div>
+                        <div class="col-md-6 display">
+                            <img src="assets/images/react.png">
+                            <img src="assets/images/mysql.png">
+                            <img src="assets/images/php.png">
+                        </div>
+                    </div>
     </section>
 
 
-  <!--Lineas Dedicadas exclusivamente al Javascript-->
-      <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/all.js"></script>  
-      
+    <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <h3>¿Quieres iniciar tu proyecto? <b>Puedo ayudarte</b></h3>
+                    <p>Puedes contactarte conmigo al correo: carlosmora055@gmail.com 
+                        <br>
+                        Al whatsapp al: +57 3007657614
+                        <br>
+                        y para llamarme al: +57 3005875020
+                        <br>
+                    </p>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Nombres">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Nombre de empresa">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="" placeholder="Número de teléfono (opcional)">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="" class="btn btn-primary full-width">Enviar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bgDark">
+        <div class="container">
+            <img src="assets/images/logo.png" class="logo-footer" alt="logo">
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="#herp">Home</a></li>
+                <li class="list-inline-item footer-menu"><a href="#portfolio">Portfolio</a></li>
+                <li class="list-inline-item footer-menu"><a href="#sobre_mi">Sobre mi</a></li>
+                <li class="list-inline-item footer-menu"><a href="#habilidades">Habilidades</a></li>
+                <li class="list-inline-item footer-menu"><a href="#contacto">Contacto</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+            </ul>
+            <small>©2020 All Rights Reserved. Created by Andres Mora</small>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>
