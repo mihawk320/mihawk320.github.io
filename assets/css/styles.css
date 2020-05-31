@@ -6,10 +6,10 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 :root {
-    --dark-color: #1a1a1a;
-    --white-color: #ffffff;
-    --light-grey-color: #f5f5f5;
-    --gold-color: #ffb944;
+    --dark-color: #363062;
+    --white-color: #363062;
+    --light-grey-color: #827397;
+    --gold-color: #4d4c7d;
 }
 
 * {
@@ -39,8 +39,7 @@ h5 { margin-bottom: 0px; }
 
 p {
     font-size: 18px;
-    color: var(--dark-color);
-    opacity: .5;
+    color: white;
     line-height: 1.8;
     margin-bottom: 0px;
 }
@@ -57,14 +56,14 @@ a:hover { text-decoration: none; }
 
 .btn-primary {
     background-color: var(--dark-color);
-    color: var(--white-color);
+    color: white;
     border: 2px solid var(--dark-color);
 }
 
 .btn-secondary {
-    background-color: var(--white-color);
+    background-color: white;
     color: var(--dark-color);
-    border: 2px solid var(--white-color);
+    border: 2px solid white;
 }
 
 .btn-alternate {
@@ -74,7 +73,7 @@ a:hover { text-decoration: none; }
 }
 
 .btn-primary:hover { background-color: var(--dark-color); border: 2px solid var(--dark-color); }
-.btn-secondary:hover { background-color: var(--white-color); color: var(--dark-color); border: 2px solid var(--white-color); }
+.btn-secondary:hover { background-color: var(--light-grey-color); color: white; border: 2px solid white; }
 .btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
 
 .logo{
@@ -120,8 +119,8 @@ section { padding: 120px 0; }
     min-height: 100px;
 }
 
-.nav-link { color: var(--dark-color); }
-.nav-link:hover { color: var(--dark-color); }
+.nav-link { color:white; font-weight: bold; }
+.nav-link:hover { color:#fe346e; font-weight: bold; }
 
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
@@ -134,12 +133,14 @@ section { padding: 120px 0; }
     background-image: url("../../assets/images/hero.jpg");
     background-size: cover;
     padding-top: 90px;
-    min-height: 700px;
-    color: var(--white-color);
+    height: 100vh;
+    color: white;
+
+
 }
 
 #hero p {
-    color: var(--white-color);
+    color: white;
 }
 
 #hero h1{
@@ -189,11 +190,12 @@ section { padding: 120px 0; }
 //////////////*/
 
 #foto{
-    border-radius: 50%;
     display:flex;
     margin:0 auto;
     max-width: 220px;
     min-width: 180px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
   }
 
 /* //////////////
@@ -208,6 +210,9 @@ section { padding: 120px 0; }
     margin-bottom: 15px;
 }
 
+.letricas{
+    color:black !important;
+}
 /* //////////////
    Footer
 //////////////*/
@@ -215,15 +220,15 @@ section { padding: 120px 0; }
 footer {
     padding: 80px 0;
     text-align: center;
-    color: var(--white-color);
+    color: white;
 }
 
 footer a {
-    color: var(--white-color);
+    color: white;
 }
 
 footer a:hover {
-    color: var(--white-color);
+    color: white;
 }
 
 footer .list-inline .list-inline-item {
