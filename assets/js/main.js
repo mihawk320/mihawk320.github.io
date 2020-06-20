@@ -1,3 +1,7 @@
+setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+},1500);
+
 function goepav(){
     Swal.fire({
         title: 'Goepav',
