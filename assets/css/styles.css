@@ -244,6 +244,11 @@ section { padding: 120px 0; }
     background-color: #0b0b0d;
     transform: ease(2s);
 }
+.botonxd2:hover{
+    background-color: #ececec;
+    transform: ease(2s);
+
+}
 .color_blanco{
     color:white;
 }
