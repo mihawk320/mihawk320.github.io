@@ -21,6 +21,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo.png" />
 
+    
+
     <title>Portafolio - Andres Mora</title>
 </head>
 
@@ -77,55 +79,32 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="http://goepav.000webhostapp.com/" target="_blank">
-                                <h2>Goepav</h2>
-                            </a>
-                            <a href="http://goepav.000webhostapp.com/" target="_blank">
-                                <p>— App/Digital Product</p>
-                            </a>
-                        </div>
+                      
                         <img src="assets/images/goepav.png" class="img-fluid" alt="Portfolio 01">
                     </div>
+                    <button type="button" onclick="goepav()" class="btn botonxd btn-lg btn-block">Goepav - Ver detalles</button>
                 </div>
+                
                 <div class="col-md-6">
                     <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="https://hackathon-makaia.netlify.app/" target="_blank">
-                                <h2>Makaia</h2>
-                            </a>
-                            <a href="https://hackathon-makaia.netlify.app/" target="_blank">
-                                <p>— App/Digital Product</p>
-                            </a>
-                        </div>
+                      
                         <img src="assets/images/hackaton.png" class="img-fluid" alt="Portfolio 02">
                     </div>
+                    <button type="button" onclick="hackaton()" class="btn botonxd btn-lg btn-block">Hackaton - Ver detalles</button>
                 </div>
                 <div class="col-md-6">
                     <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="https://adoptaenmedellin.herokuapp.com/">
-                                <h2>Adopta en Medellín</h2>
-                            </a>
-                            <a href="https://adoptaenmedellin.herokuapp.com/">
-                                <p>— App/Digital Product</p>
-                            </a>
-                        </div>
+                        
                         <img src="assets/images/adoptamed.png" class="img-fluid" alt="Portfolio 03">
                     </div>
+                    <button type="button" onclick="metamorfosis()" class="btn botonxd btn-lg btn-block">Metamorfosis - Ver detalles</button>
                 </div>
                 <div class="col-md-6">
                     <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="https://serviteca.netlify.app/" target="_blank">
-                                <h2>Serviteca</h2>
-                            </a>
-                            <a href="https://serviteca.netlify.app/" target="_blank">
-                                <p>— App/Digital Product</p>
-                            </a>
-                        </div>
+                    
                         <img src="assets/images/serviteca.png" class="img-fluid" alt="Portfolio 04">
                     </div>
+                    <button type="button" onclick="serviteca()" class="btn botonxd btn-lg btn-block">Serviteca - Ver detalles</button>
                 </div>
             </div>
             <div class="text-center mt-4">
@@ -138,7 +117,7 @@
     <section id="sobre_mi" class="bgLightGrey">
         <div class="container">
             <div class="content-center">
-                <h2>Acerca de <b>mi</b></h2>
+                <h2 class="color_blanco">Acerca de <b>mi</b></h2>
                 <p>Mi nombre es Carlos Andres Mora y empecé en el desarrollo web hace 4 años, soy técnico en desarrollo de software
                     y actualmente me encuentro cursando Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia.
                     Soy una persona que le encanta el aprendizaje y siempre tiene el deseo de estar superándose. Hice la técnica 
@@ -220,6 +199,20 @@
         </div>
     </section>
 
+    <div id="whatsapp-icon" style="position:fixed; right:10px; top:40%; text-align:center; padding:3px; z-index:3;">
+        <a href="https://api.whatsapp.com/send?phone=+573007657614" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" width="50" height="50"></a>
+    </div>
+    
+    <div id="instagram-icon" style="position:fixed; right:10px; top:50%; text-align:center; padding:3px; z-index:3;">
+        <a href="https://www.instagram.com/andres_hammet/" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" width="50" height="50"></a>
+    </div>
+    
+    <div id="facebook-icon" style="position:fixed; right:10px; top:60%; text-align:center; padding:3px; z-index:3;">
+        <a href="https://www.facebook.com/andresmoraxd" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="50" height="50"></a>
+    </div>
 
     <footer class="bgDark">
         <div class="container">
@@ -232,11 +225,8 @@
                 <li class="list-inline-item footer-menu"><a href="#contacto">Contacto</a></li>
             </ul>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/andres_hammet/" target="_blank"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/andresmoraxd" target="_blank"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
             </ul>
             <small>©2020 All Rights Reserved. Created by Andres Mora</small>
         </div>
@@ -244,9 +234,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
