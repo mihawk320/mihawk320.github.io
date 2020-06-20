@@ -12,6 +12,7 @@
     --gold-color: #4d4c7d;
 }
 
+
 * {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -192,6 +193,10 @@ section { padding: 120px 0; }
 .botonxd{
     background-color: black;
     color:white;
+}
+.botonxd2{
+    background-color: #929aab;
+    color:black;
 }
 
 .botonxd:hover{
