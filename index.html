@@ -17,6 +17,7 @@
 
     <!-- Ionic icons-->
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo.png" />
@@ -30,7 +31,7 @@
 
 <div class="loader_bg">
     <div class="loader">
-        
+
     </div>
 </div>
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -79,13 +80,12 @@
     <section id="portfolio">
         <div class="container-fluid">
             <div class="content-center">
-                <h2>Mi portafolio</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" >Mi portafolio</h2>
                 <p>Aquí hay ejemplos de los diferentes proyectos que he desarrollado</p>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0"  >
                     <div class="portfolio-container">
-                      
                         <img src="assets/images/goepav.png" class="img-fluid" alt="Portfolio 01">
                     </div>
                     <div class="row">
@@ -99,7 +99,7 @@
                     
                 </div>
                 
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                     <div class="portfolio-container">
                       
                         <img src="assets/images/hackaton.png" class="img-fluid" alt="Portfolio 02">
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                     <div class="portfolio-container">
                         
                         <img src="assets/images/adoptamed.png" class="img-fluid" alt="Portfolio 03">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                     <div class="portfolio-container">
                     
                         <img src="assets/images/serviteca.png" class="img-fluid" alt="Portfolio 04">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-4">
+            <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                 <p class="letricas">¿Listo para iniciar tu proyecto?</p>
                 <a href="#" class="text-dark"><b>Te ayudo con eso</b></a>
             </div>
@@ -152,31 +152,31 @@
     <section id="sobre_mi" class="bgLightGrey">
         <div class="container">
             <div class="content-center">
-                <h2 class="color_blanco">Acerca de <b>mi</b></h2>
-                <p>Mi nombre es Carlos Andres Mora y empecé en el desarrollo web hace 4 años, soy técnico en desarrollo de software
+                <h2 class="color_blanco" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Acerca de <b>mi</b></h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Mi nombre es Carlos Andres Mora y empecé en el desarrollo web hace 4 años, soy técnico en desarrollo de software
                     y actualmente me encuentro cursando Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia.
                     Soy una persona que le encanta el aprendizaje y siempre tiene el deseo de estar superándose. Hice la técnica 
                     mientras estuve en el colegio, luego de eso hice parte de varios developer circles y cursos (Entre ellos academia geek) para así ampliar mis 
                     conocimientos como desarrollador. <b>HTML, CSS, JavaScript, jQuery, React, Mysql, Php y Git.</b> 
                 </p>
             </div>
-            <img src="assets/images/yo.jpg" alt="yo" class="img-fluid my-auto" id="foto">
+            <img src="assets/images/yo.jpg" alt="yo" class="img-fluid my-auto" id="foto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
 
     </section>
 
     <section id="habilidades" class="divider">
         <div class="container">
             <div class="content-center">
-                <h2><b>Habilidades</b></h2>
-                <p>Tengo habilidad en <b>HTML, CSS, JavaScript, jQuery, React, Mysql, Php y Git.</b> </p>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0"><b>Habilidades</b></h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Tengo habilidad en <b>HTML, CSS, JavaScript, jQuery, React, Mysql, Php y Git.</b> </p>
             </div>
                     <div class="row">
-                        <div class="col-md-6 display">
+                        <div class="col-md-6 display" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                             <img src="assets/images/html.png">
                             <img src="assets/images/css.png">
                             <img src="assets/images/js.png">
                         </div>
-                        <div class="col-md-6 display">
+                        <div class="col-md-6 display" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                             <img src="assets/images/react.png">
                             <img src="assets/images/mysql.png">
                             <img src="assets/images/php.png">
@@ -274,6 +274,11 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  				<script>
+    				AOS.init();
+  				</script>
 </body>
 
 </html>
