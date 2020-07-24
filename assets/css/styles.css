@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
 .loader_bg{
     position: fixed;
     z-index: 999999;
@@ -19,8 +25,8 @@
 }
 .loader:hover{
     background: #333333; /* fallback for old browsers */
-     background: -webkit-linear-gradient(to bottom, #333333, #dd1818); /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to bottom, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #333333, #dd1818); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 0 5px #d92027,
                 0 0 25px #ff9234 ,
                 0 0 50px #ffcd3c,
@@ -328,6 +334,10 @@ section { padding: 120px 0; }
    Sobre mi
 //////////////*/
 
+.fondo{
+    background-color: black;
+}
+
 .botonxd{
     background-color: black;
     color:white;
@@ -373,6 +383,109 @@ section { padding: 120px 0; }
 .letricas{
     color:black !important;
 }
+
+/* Social -media */
+
+.social-media{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    height: 100%;
+    margin-top:30px;
+  }
+  .social-media ul{
+    display: flex;
+  }
+  .social-media ul li{
+    position: relative;
+    display: block;
+    color: #f2f2f2;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #171515;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .social-media ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    /* background: #d35400; */
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+  }
+  .social-media ul li:nth-child(1):before{
+    background: #1DA1F2;
+  }
+  .social-media ul li:nth-child(2):before{
+    background: white;
+  }
+  .social-media ul li:nth-child(3):before{
+    background: #E1306C;
+  }
+  .social-media ul li:nth-child(4):before{
+    background: #2867B2;
+  }
+  .social-media ul li:nth-child(5):before{
+    background: #ff0000;
+  }
+  .social-media ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /* box-shadow: 0 0 15px #d35400; */
+  }
+  .social-media ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 15px #1DA1F2;
+  }
+  .social-media ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 15px white;
+  }
+  .social-media ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 15px #E1306C;
+  }
+  .social-media ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 15px #2867B2;
+  }
+  .social-media ul li:nth-child(5):hover:before{
+    box-shadow: 0 0 15px #ff0000;
+  }
+  .social-media ul li:nth-child(1):hover{
+    color: #456cba;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+  .social-media ul li:nth-child(2):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 15px white;
+    text-shadow: 0 0 15px white;
+  }
+  .social-media ul li:nth-child(3):hover{
+    color: #e23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+  }
+  .social-media ul li:nth-child(4):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+  }
+  .social-media ul li:nth-child(5):hover{
+    color: #ff1a1a;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+  }
+
 /* //////////////
    Footer
 //////////////*/
