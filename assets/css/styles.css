@@ -384,6 +384,51 @@ section { padding: 120px 0; }
     color:black !important;
 }
 
+
+/* Servicios */
+
+.contenedor-slider {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+  }
+
+  .imagen{
+      width: 300px;
+      height: 300px;
+  }
+
+  @media (max-width: 768px) {
+    .swiper-slide{
+        width: 200px;
+        height: 200px;
+    }
+    .imagen{
+        width: 200px;
+        height: 200px; 
+    }
+  }
 /* Social -media */
 
 .social-media{
