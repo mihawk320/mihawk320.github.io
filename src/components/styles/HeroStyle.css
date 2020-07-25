@@ -1,0 +1,16 @@
+
+#hero {
+    background-image: url("../../images/hero.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    height: 96vh;
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+#hero h1{
+    margin-top: 30vh;
+}

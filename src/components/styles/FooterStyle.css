@@ -1,0 +1,18 @@
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
