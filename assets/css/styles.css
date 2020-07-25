@@ -222,8 +222,8 @@ a:hover { text-decoration: none; }
 .btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
 
 .logo{
-    max-width: 140px;
-    min-width: 140px;
+    max-width: 130px;
+    min-width: 130px;
 }
 
 .logo-footer{
@@ -259,7 +259,7 @@ section { padding: 120px 0; }
 }
 
 .navbar {
-    background-color: var(--white-color);
+    background-color: black;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
     min-height: 100px;
 }
