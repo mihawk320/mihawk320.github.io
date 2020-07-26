@@ -21,7 +21,7 @@ class Portafolio extends React.Component{
         Swal.fire({
             title: 'Serviteca',
             text: 'Página realizada con HTML, CSS y JavaScript de un taller de mecánica, una simple muestra de diseño',
-            imageUrl: 'https://mihawk320.github.io/assets/images/serviteca.png',
+            imageUrl: 'https://andresmora.netlify.app/static/media/serviteca.6f5c5c1e.png',
             imageWidth: 400,
             imageHeight: 200,
             imageAlt: 'Custom image',
@@ -31,7 +31,7 @@ class Portafolio extends React.Component{
         Swal.fire({
             title: 'Hackaton',
             text: 'Página realizada mientras estuve en una academia, la misión era construir una página en 4 horas con React, y este fue el resultado',
-            imageUrl: 'https://mihawk320.github.io/assets/images/hackaton.png',
+            imageUrl: 'https://andresmora.netlify.app/static/media/hackaton.e9c19738.png',
             imageWidth: 400,
             imageHeight: 200,
             imageAlt: 'Custom image',
@@ -41,7 +41,7 @@ class Portafolio extends React.Component{
         Swal.fire({
             title: 'Goepav',
             text: 'Página realizada con PHP, Jquery y Ajax, que si bien no es usada realmente, la hice para adjuntarla al portafolio (Contiene pagos por paypal pero el host gratuito no lo admite, F)',
-            imageUrl: 'https://mihawk320.github.io/assets/images/goepav.png',
+            imageUrl: 'https://andresmora.netlify.app/static/media/goepav.a117c83d.png',
             imageWidth: 400,
             imageHeight: 200,
             imageAlt: 'Custom image',
@@ -51,7 +51,7 @@ class Portafolio extends React.Component{
         Swal.fire({
             title: 'AdoptaMed',
             text: 'Página de adopción animal la cual está siendo construida en este momento, pero hay un adelanto. Es en React, SPA',
-            imageUrl: 'https://mihawk320.github.io/assets/images/adoptamed.png',
+            imageUrl: 'https://andresmora.netlify.app/static/media/adoptamed.9c0fd2ff.png',
             imageWidth: 400,
             imageHeight: 200,
             imageAlt: 'Custom image',
