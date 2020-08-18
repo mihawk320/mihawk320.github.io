@@ -46,8 +46,8 @@ class Portafolio extends React.Component {
         "Página realizada con PHP, Jquery y Ajax realizada para adjuntarla al portafolio (Contiene pagos por paypal pero el host gratuito no lo admite)",
       imageUrl:
         "https://andresmora.netlify.app/static/media/goepav.a117c83d.png",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 300,
+      imageHeight: 150,
       imageAlt: "Custom image",
     });
   }
@@ -56,7 +56,7 @@ class Portafolio extends React.Component {
       title: "Metamorfosis",
       text: "Página construida en React con el modelo SPA",
       imageUrl:
-        "https://andresmora.netlify.app/static/media/adoptamed.9c0fd2ff.png",
+        "https://andresmora.netlify.app/static/media/metamorfosis.7d44eb0f.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Custom image",
