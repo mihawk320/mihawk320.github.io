@@ -1,32 +1,75 @@
-import React from 'react';
-import './styles/FooterStyle.css';
+import React from "react";
+import "./styles/FooterStyle.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faWhatsapp,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
-import Logo from '../images/logo.png'
-import Facebook from '../images/facebook.svg'
-import Instagram from '../images/instagram.svg'
+import Logo_footer from "../images/logotipo.png";
 
-class Footer extends React.Component{
-    render(){
-        return(
-            <footer className="bgDark">
-            <div className="container">
-                <img src={Logo} className="logo-footer" alt="logo"/>
-                <ul className="list-inline">
-                    <li className="list-inline-item footer-menu"><a href="#hero">Home</a></li>
-                    <li className="list-inline-item footer-menu"><a href="#portfolio">Portfolio</a></li>
-                    <li className="list-inline-item footer-menu"><a href="#sobre_mi">Sobre mi</a></li>
-                    <li className="list-inline-item footer-menu"><a href="#habilidades">Habilidades</a></li>
-                    <li className="list-inline-item footer-menu"><a href="#contacto">Contacto</a></li>
-                </ul>
-                <ul className="list-inline">
-                    <li className="list-inline-item"><a href="https://www.instagram.com/andres_hammet/" target="_blank" rel="noopener noreferrer"><img src={Instagram} className="img-fluid" alt="instagram" /></a></li>
-                    <li className="list-inline-item"><a href="https://www.facebook.com/andresmoraxd" target="_blank" rel="noopener noreferrer"><img src={Facebook} className="img-fluid" alt="Facebook" /></a></li>
-                </ul>
-                <small>©2020 All Rights Reserved. Created by Andres Mora</small>
-            </div>
-        </footer>
-        );
-    }
+class Footer extends React.Component {
+  render() {
+    return (
+      <footer className="footer-distributed mt-5">
+        <div className="footer-right">
+          <a
+            href="https://www.facebook.com/andresmoraxd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a
+            href="https://www.instagram.com/andres_hammet/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=573007657614"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
+          <a
+            href="https://github.com/mihawk320"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
+
+        <div className="footer-left">
+          <p className="footer-links">
+            <a href="#hero">Homo</a>
+
+            <a href="#portfolio">Portafolio</a>
+
+            <a href="#sobre_mi">Sobre mi</a>
+
+            <a href="#habilidades">Habilidades</a>
+
+            <a href="#contacto">Contacto</a>
+          </p>
+
+          <p>Andres Franco &copy; 2020</p>
+        </div>
+        <div className="logo__footer">
+          <img
+            src={Logo_footer}
+            className="image_logo_footer"
+            alt="logo_footer"
+          />
+        </div>
+      </footer>
+    );
+  }
 }
 
-export default Footer
+export default Footer;

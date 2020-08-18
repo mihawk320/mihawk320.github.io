@@ -1,24 +1,34 @@
-.logo{
-    max-width: 130px;
-    min-width: 130px;
+.logo {
+  max-width: 130px;
+  min-width: 130px;
 }
 
-.logo-footer{
-    max-width: 350px;
-    min-width: 140px;
+.logo-footer {
+  max-width: 350px;
+  min-width: 140px;
 }
 
 .navbar {
-    background-color: black;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-    min-height: 100px;
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
 }
 
-.menu{
-    width: 50px;
+.menu {
+  width: 50px;
 }
-.nav-link { color:white; font-weight: bold; }
-.nav-link:hover { color:#fe346e; font-weight: bold; }
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #fe346e;
+  font-weight: bold;
+}
 
-.navbar-toggler { font-size: 40px; }
-.navbar-toggler:focus { outline: none; }
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
