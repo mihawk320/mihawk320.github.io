@@ -63,7 +63,7 @@ class About extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <li>
+                <li className="facebook">
                   <FontAwesomeIcon
                     icon={faFacebookF}
                     data-aos-duration="1000"
@@ -77,7 +77,7 @@ class About extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <li>
+                <li className="github">
                   <FontAwesomeIcon
                     icon={faGithub}
                     data-aos-duration="1000"
@@ -91,7 +91,7 @@ class About extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <li>
+                <li className="instagram">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     data-aos-duration="1000"

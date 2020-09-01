@@ -47,7 +47,7 @@ class Footer extends React.Component {
 
         <div className="footer-left">
           <p className="footer-links">
-            <a href="#hero">Homo</a>
+            <a href="#hero">Home</a>
 
             <a href="#portfolio">Portafolio</a>
 

@@ -49,63 +49,43 @@
   z-index: -1;
   transition: 0.5s;
 }
-.social-media ul li:nth-child(1):before {
+.social-media .facebook::before {
   background: #1da1f2;
 }
-.social-media ul li:nth-child(2):before {
+.social-media .github::before {
   background: white;
 }
-.social-media ul li:nth-child(3):before {
+.social-media .instagram:before {
   background: #e1306c;
 }
-.social-media ul li:nth-child(4):before {
-  background: #2867b2;
-}
-.social-media ul li:nth-child(5):before {
-  background: #ff0000;
-}
+
 .social-media ul li:hover:before {
   filter: blur(3px);
   transform: scale(1.2);
   /* box-shadow: 0 0 15px #d35400; */
 }
-.social-media ul li:nth-child(1) {
+.social-media .facebook {
   box-shadow: 0 0 15px #1da1f2;
 }
-.social-media ul li:nth-child(2) {
+.social-media .github {
   box-shadow: 0 0 15px white;
 }
-.social-media ul li:nth-child(3) {
+.social-media .instagram {
   box-shadow: 0 0 15px #e1306c;
 }
-.social-media ul li:nth-child(4) {
-  box-shadow: 0 0 15px #2867b2;
-}
-.social-media ul li:nth-child(5) {
-  box-shadow: 0 0 15px #ff0000;
-}
-.social-media ul li:nth-child(1) {
+
+.social-media .facebook {
   color: #456cba;
   box-shadow: 0 0 15px #1da1f2;
   text-shadow: 0 0 15px #1da1f2;
 }
-.social-media ul li:nth-child(2) {
-  color: #26a4f2;
+.social-media .github {
+  color: white;
   box-shadow: 0 0 15px white;
   text-shadow: 0 0 15px white;
 }
-.social-media ul li:nth-child(3) {
+.social-media .instagram {
   color: #e23670;
   box-shadow: 0 0 15px #e1306c;
   text-shadow: 0 0 15px #e1306c;
-}
-.social-media ul li:nth-child(4) {
-  color: #2a6cbb;
-  box-shadow: 0 0 15px #2867b2;
-  text-shadow: 0 0 15px #2867b2;
-}
-.social-media ul li:nth-child(5) {
-  color: #ff1a1a;
-  box-shadow: 0 0 15px #ff0000;
-  text-shadow: 0 0 15px #ff0000;
 }
