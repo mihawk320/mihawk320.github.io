@@ -1,0 +1,9 @@
+{
+  "short_name": "Carlos Mora",
+  "name": "Portafolio Carlos Mora",
+
+  "start_url": "/index",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,52 +1,108 @@
-import React from 'react'
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
-import './styles/ServiceStyle.css'
+import React from "react";
 
+import "./styles/ServiceStyle.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheckCircle,
+  faFileCode,
+  faDonate,
+  faChevronCircleUp,
+} from "@fortawesome/free-solid-svg-icons";
 
-import Img1 from '../images/img1.png'
-import Img2 from '../images/img2.png'
-import Img3 from '../images/img3.png'
-
-class Services extends React.Component{
-    componentDidMount(){
-        this.swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-              rotate: 20,
-              stretch: 0,
-              depth: 200,
-              modifier: 1,
-              slideShadows: true,
-            },
-            loop:true,
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-              },
-          });
-    }
-    render(){
-        return(
-            <div className="contenedor-slider">
-            <div className="swiper-container">
-                <div className="swiper-wrapper">
-                <div className="swiper-slide"><img src={Img1} className="imagen" alt="servicio1" /></div>
-                <div className="swiper-slide"><img src={Img2} className="imagen" alt="servicio2" /></div>
-                <div className="swiper-slide"><img src={Img3} className="imagen" alt ="servicio3" /></div>
-                
-                </div>
-                
-                <div className="swiper-pagination"></div>
+class Services extends React.Component {
+  render() {
+    return (
+      <section id="about" className="about section-bg">
+        <div className="container" data-aos="fade-up">
+          <div className="row no-gutters">
+            <div className="content col-xl-5 d-flex align-items-stretch">
+              <div className="content">
+                <h3>Desarrollo de software de la mejor calidad</h3>
+                <p>
+                  Si necesitas la elaboración de tu página web, con cualquier
+                  tipo de propósito, tamaño o complejidad, no te preocupes más,
+                  acá está la solución que estabas buscando.
+                </p>
+                <a href="#hero" className="about-btn">
+                  <span>VER MÁS</span>
+                </a>
+              </div>
             </div>
-            
+            <div className="col-xl-7 d-flex align-items-stretch">
+              <div className="icon-boxes d-flex flex-column justify-content-center">
+                <div className="row">
+                  <div
+                    className="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <FontAwesomeIcon
+                      icon={faFileCode}
+                      data-aos-duration="1000"
+                      data-aos="fade-down"
+                      className="services_icons"
+                    />
+                    <h4>Código limpio</h4>
+                    <p>
+                      Código organizado de la mejor manera para facilitar el
+                      desarrollo
+                    </p>
+                  </div>
+                  <div
+                    className="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <FontAwesomeIcon
+                      icon={faCheckCircle}
+                      data-aos-duration="1000"
+                      data-aos="fade-down"
+                      className="services_icons"
+                    />
+                    <h4>Calidad garantizada</h4>
+                    <p>
+                      Desarrollo tu página web con gran calidad y adaptable a
+                      dispositivos móviles
+                    </p>
+                  </div>
+                  <div
+                    className="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <FontAwesomeIcon
+                      icon={faChevronCircleUp}
+                      data-aos-duration="1000"
+                      data-aos="fade-down"
+                      className="services_icons"
+                    />
+                    <h4>Posicionamiento SEO</h4>
+                    <p>
+                      Haz que tu página web esté en las primeras posiciones de
+                      google
+                    </p>
+                  </div>
+                  <div
+                    className="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <FontAwesomeIcon
+                      icon={faDonate}
+                      data-aos-duration="1000"
+                      data-aos="fade-down"
+                      className="services_icons"
+                    />
+                    <h4>Excelentes precios</h4>
+                    <p>Precios accesibles y métodos de pago flexibles</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    
-        );
-    }
+      </section>
+    );
+  }
 }
-
-export default Services
+export default Services;

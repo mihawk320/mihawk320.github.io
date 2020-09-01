@@ -10,6 +10,7 @@ import Skill from "./components/skills";
 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Services from "./components/Services";
 
 function App() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
       <Portafolio />
       <About />
       <Skill />
-
+      <Services />
       <Contact />
       <Footer />
     </React.Fragment>
